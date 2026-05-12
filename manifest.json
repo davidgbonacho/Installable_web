@@ -28,9 +28,9 @@
   "author": "Tizedit",
   "version": "1.10",
   "start_url": "/Installable_web/",
+  "scope": "/Installable_web/",
   "background_color": "#3b5daa",
   "display": "standalone",
-  "scope": "/Installable_web/",
   "theme_color": "#3b5daa",
   "shortcuts": [
     {
@@ -38,7 +38,12 @@
       "short_name": "App PWA",
       "description": "App PWA",
       "url": "/Installable_web/",
-      "icons": [{ "src": "/Installable_web/img/logo192.png", "sizes": "192x192" }]
+      "icons": [
+        {
+          "src": "/Installable_web/img/logo192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ]
 }
